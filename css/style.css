@@ -8,7 +8,6 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgb(114, 114, 204);
-  height: 100vh;
 }
 
 a {
@@ -17,7 +16,8 @@ a {
 }
 
 #page {
-  padding: 2em 10vw;
+  padding: 0em 10vw;
+  margin-top: 2em;
 }
 
 #navbar {
@@ -37,6 +37,8 @@ a {
 
 .logo {
   font-size: 20px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .x {
@@ -56,11 +58,12 @@ a {
 }
 
 .flex-left {
-  width: 80%;
+  width: 75%;
 }
 
 .flex-right {
-  width: 20%;
+  width: 14em;
+  margin-top: 4em;
 }
 
 .ideas {
@@ -70,7 +73,7 @@ a {
 }
 
 .world {
-  font-size: 5em;
+  font-size: 4.8em;
   font-family: cursive;
   color: aquamarine;
   padding-top: 0.7em;
@@ -83,6 +86,24 @@ a {
   background-color: aquamarine;
   border-radius: 15px;
   margin-top: 2em;
+}
+
+.wordx {
+  transform: rotate(-90deg);
+  /* margin-left: 80px; */
+  background-color: aquamarine;
+  font-size: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding: 1.5em 1em;
+  border-radius: 35px;
+  color: lightcoral;
+  /* width: 2em; */
+}
+
+.X {
+  font-size: 2em;
+  font-family: cursive;
 }
 
 .btn {
@@ -106,4 +127,16 @@ a {
 
 .line {
   margin-top: 7em;
+}
+
+.arrow {
+  margin-top: 5.3em;
+  margin-left: 1em;
+  background-color: aquamarine;
+  display: inline-flex;
+  align-items: center;
+  padding: 4.6em 3.5em;
+  border-radius: 35px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
