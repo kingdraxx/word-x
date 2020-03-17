@@ -50,7 +50,7 @@ a {
   color: aquamarine;
 }
 
-#showcase {
+#content {
   display: flex;
   padding-top: 5em;
   justify-content: space-between;
@@ -79,7 +79,7 @@ a {
   padding-top: 0.7em;
 }
 
-#showcase .button {
+#content .button {
   display: inline-block;
   font-size: 18px;
   padding: 0.8em 2.5em;
@@ -179,8 +179,9 @@ a {
   /* transition: 0.3s ease-in-out; */
 }
 
-.flex-middle .line {
-  margin-top: 5.1em;
+.line2 {
+  padding-top: 4.2em;
+  margin: 0em 23vw;
 }
 
 .flex-middle {
@@ -188,10 +189,37 @@ a {
 }
 
 .wordx2 {
-  transform: rotate(90deg);
   background-color: aquamarine;
-  width: 10%;
-  /* font-size: 36px;
-  display: inline-flex;
-  align-items: center; */
+  font-size: 2em;
+  color: lightcoral;
+  display: flex;
+  align-items: center;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.wordx3 {
+  background-color: aquamarine;
+  font-size: 2em;
+  color: lightcoral;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.worda1 {
+  transform: rotate(90deg);
+}
+
+.worda2 {
+  transform: rotate(-90deg);
+}
+
+#content2 {
+  display: flex;
+  padding-top: 6em;
+  justify-content: space-between;
+  /* width: 100vw; */
+  /* height: 100vh; */
 }
