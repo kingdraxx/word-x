@@ -73,6 +73,7 @@ a {
   font-size: 5em;
   font-family: cursive;
   color: aquamarine;
+  padding-top: 0.7em;
 }
 
 #showcase .button {
@@ -89,19 +90,20 @@ a {
 }
 
 .line-1 {
-  /* width: 75vw; */
   background-color: #fff6;
   border-radius: 100px;
-  height: 30px;
-  margin: auto;
-  /* margin-bottom: -50px; */
+  padding: 1em;
+  margin-bottom: 2em;
 }
 
 .line-2 {
-  /* width: 75vw; */
   background-color: #fff6;
   border-radius: 100px;
-  height: 30px;
-  margin: auto;
-  /* margin-bottom: -50px; */
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 1em;
+}
+
+.line {
+  margin-top: 7em;
 }
