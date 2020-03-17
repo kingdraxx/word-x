@@ -140,3 +140,58 @@ a {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+
+/* ABOUT */
+
+.great {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+.people {
+  font-size: 1.6em;
+  font-family: cursive;
+  color: aquamarine;
+  text-align: center;
+  line-height: 2em;
+  padding-top: 1.5em;
+}
+
+.maria {
+  color: plum;
+  font-family: cursive;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.flex-middle .botton {
+  margin: auto;
+  width: fit-content;
+  font-size: 18px;
+  padding: 0.8em 2.5em;
+  color: lightcoral;
+  background-color: aquamarine;
+  border-radius: 15px;
+  cursor: pointer;
+  /* transition: 0.3s ease-in-out; */
+}
+
+.flex-middle .line {
+  margin-top: 5.1em;
+}
+
+.flex-middle {
+  width: 100%;
+}
+
+.wordx2 {
+  transform: rotate(90deg);
+  background-color: aquamarine;
+  width: 10%;
+  /* font-size: 36px;
+  display: inline-flex;
+  align-items: center; */
+}
