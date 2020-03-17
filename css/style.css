@@ -38,3 +38,70 @@ a {
 .logo {
   font-size: 20px;
 }
+
+.x {
+  font-family: cursive;
+  font-size: 1.5em;
+}
+
+.home {
+  color: aquamarine;
+}
+
+#showcase {
+  display: flex;
+  padding-top: 5em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.flex-left {
+  width: 80%;
+}
+
+.flex-right {
+  width: 20%;
+}
+
+.ideas {
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.world {
+  font-size: 5em;
+  font-family: cursive;
+  color: aquamarine;
+}
+
+#showcase .button {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.8em 2.5em;
+  background-color: aquamarine;
+  border-radius: 15px;
+  margin-top: 2em;
+}
+
+.btn {
+  color: lightcoral;
+}
+
+.line-1 {
+  /* width: 75vw; */
+  background-color: #fff6;
+  border-radius: 100px;
+  height: 30px;
+  margin: auto;
+  /* margin-bottom: -50px; */
+}
+
+.line-2 {
+  /* width: 75vw; */
+  background-color: #fff6;
+  border-radius: 100px;
+  height: 30px;
+  margin: auto;
+  /* margin-bottom: -50px; */
+}
